@@ -65,6 +65,13 @@
     permission="zope2.View"
     />
 
+  <browser:page
+    for="*"
+    name="extauth"
+    class=".extauth.ExtAuthView"
+    permission="zope.Public"
+    />
+
   <!-- Viewlets -->
 
   <!--
